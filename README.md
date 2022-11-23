@@ -37,7 +37,7 @@ metadata:
   labels:
     name: apimyingress
   annotations:
-    traefik.ingress.kubernetes.io/router.middlewares: default-level1strip
+    traefik.ingress.kubernetes.io/router.middlewares: default-level1strip@kubernetescrd
 spec:
   rules:
   - http:
